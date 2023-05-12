@@ -11,36 +11,36 @@
 
 <body>
     <div class="container w-25 border border-1 border-black bg-dark " style="height: 470px; border-radius: 15px;">
-        <h2 class="container w" style="color:rgb(55, 156, 238); margin-left:100px;">Calculator</h2>
+       <div class="container w"> <h2 style="color:rgb(55, 156, 238);text-align: center;">Calculator</h2></div>
         <input style="border-radius: 4px;" type="text" id="t1" class="form-control" ><br>
         <div class="row mt-2 me-1 ms-2">
-            <div class="col-3"><button type="button" onclick="displayData(7)" class="btn btn-outline-warning border-3" style="border-radius: 20px;">7</button></div>
-            <div class="col-3"><button type="button" onclick="displayData(8)" class="btn btn-outline-warning border-3" style="border-radius: 20px;">8</button></div>
-            <div class="col-3"><button type="button" onclick="displayData(9)" class="btn btn-outline-warning border-3" style="border-radius: 20px;">9</button></div>
-            <div class="col-3"><button type="button" onclick="displayData('/')" class="btn btn-outline-primary border-3" style="border-radius: 20px;">/</button></div>
+            <div class="col-3"><button type="button" onclick="displayData(7)" class="btn btn-outline-warning border-3" style="border-radius: 10px;">7</button></div>
+            <div class="col-3"><button type="button" onclick="displayData(8)" class="btn btn-outline-warning border-3" style="border-radius: 10px;">8</button></div>
+            <div class="col-3"><button type="button" onclick="displayData(9)" class="btn btn-outline-warning border-3" style="border-radius: 10px;">9</button></div>
+            <div class="col-3"><button type="button" onclick="displayData('/')" class="btn btn-outline-primary border-3" style="border-radius: 10px;">/</button></div>
         </div><br>
         <div class="row mt-2 me-1 ms-2">
-            <div class="col-3"><button type="button" onclick="displayData(4)" class="btn btn-outline-warning border-3" style="border-radius: 20px;">4</button></div>
-            <div class="col-3"><button type="button" onclick="displayData(5)" class="btn btn-outline-warning border-3" style="border-radius: 20px;">5</button></div>
-            <div class="col-3"><button type="button" onclick="displayData(6)" class="btn btn-outline-warning border-3" style="border-radius: 20px;">6</button></div>
-            <div class="col-3"><button type="button" onclick="displayData('*')" class="btn btn-outline-primary border-3" style="border-radius: 20px;">*</button></div>
+            <div class="col-3"><button type="button" onclick="displayData(4)" class="btn btn-outline-warning border-3" style="border-radius: 10px;">4</button></div>
+            <div class="col-3"><button type="button" onclick="displayData(5)" class="btn btn-outline-warning border-3" style="border-radius: 10px;">5</button></div>
+            <div class="col-3"><button type="button" onclick="displayData(6)" class="btn btn-outline-warning border-3" style="border-radius: 10px;">6</button></div>
+            <div class="col-3"><button type="button" onclick="displayData('*')" class="btn btn-outline-primary border-3" style="border-radius: 10px;">*</button></div>
         </div><br>
         <div class="row mt-2 me-1 ms-2">
-            <div class="col-3"><button type="button" onclick="displayData(1)" class="btn btn-outline-warning border-3" style="border-radius: 20px;">1</button></div>
-            <div class="col-3"><button type="button" onclick="displayData(2)" class="btn btn-outline-warning border-3" style="border-radius: 20px;">2</button></div>
-            <div class="col-3"><button type="button" onclick="displayData(3)" class="btn btn-outline-warning border-3" style="border-radius: 20px;">3</button></div>
-            <div class="col-3"><button type="button" onclick="displayData('-')" class="btn btn-outline-primary border-3" style="border-radius: 20px;">-</button></div>
+            <div class="col-3"><button type="button" onclick="displayData(1)" class="btn btn-outline-warning border-3" style="border-radius: 10px;">1</button></div>
+            <div class="col-3"><button type="button" onclick="displayData(2)" class="btn btn-outline-warning border-3" style="border-radius: 10px;">2</button></div>
+            <div class="col-3"><button type="button" onclick="displayData(3)" class="btn btn-outline-warning border-3" style="border-radius: 10px;">3</button></div>
+            <div class="col-3"><button type="button" onclick="displayData('-')" class="btn btn-outline-primary border-3" style="border-radius: 10px;">-</button></div>
         </div><br>
         <div class="row mt-2 me-1 ms-2">
-            <div class="col-3"><button type="button" onclick="displayData('.')" class="btn btn-outline-warning border-3" style="border-radius: 20px; ">.</button></div>
-            <div class="col-3"><button type="button" onclick="displayData(0)"class="btn btn-outline-warning border-3" style="border-radius: 20px;">0</button></div>
-            <div class="col-3"><button type="button" onclick="slicem()"class="btn btn-outline-danger border-3" style="border-radius: 20px;">Del</button></div>
-            <div class="col-3"><button type="button" onclick="displayData('+')" class="btn btn-outline-primary border-3" style="border-radius: 20px;">+</button></div>
+            <div class="col-3"><button type="button" onclick="displayData('.')" class="btn btn-outline-warning border-3" style="border-radius: 10px; ">.</button></div>
+            <div class="col-3"><button type="button" onclick="displayData(0)"class="btn btn-outline-warning border-3" style="border-radius: 10px;">0</button></div>
+            <div class="col-3"><button type="button" onclick="slicem()"class="btn btn-outline-danger border-3" style="border-radius: 10px;">Del</button></div>
+            <div class="col-3"><button type="button" onclick="displayData('+')" class="btn btn-outline-primary border-3" style="border-radius: 10px;">+</button></div>
         </div><br>
         <div class="row mt-2 me-1 ms-2">
-            <div class="col-3 w-50"><button type="button" onclick="allClear()" class="btn btn-outline-danger border-3" style="border-radius: 20px;width: 113px;">AC</button></div>
-            <div class="col-3"><button type="button" onclick="evaluateOpe()" class="btn btn-outline-success border-3" style="border-radius: 20px; width: 113px;">=</button></div>
-            
+            <div class="col-3 "><button type="button" onclick="allClear(0)" class="btn btn-outline-danger border-3" style="border-radius: 10px; width: 80px;">AC</button></div>
+            <div class="col-3  ms-3"><button type="button" onclick="evaluateOpe()" class="btn btn-outline-success border-3" style="border-radius: 10px;width: 80px;  ">=</button></div>
+     
         </div>
     </div>
 
